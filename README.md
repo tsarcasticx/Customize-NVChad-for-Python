@@ -32,6 +32,7 @@ nvim
 ```
 4) Wait until all packages are installed
 5) Once it's done, you can type `:MasonInstall pyright`, or even `:MasonInstallAll`, but make sure the pyright is installed
+   and then quit Neovim
 6) Or if there is still an error that appears on something, quit Neovim by `:qa!` and type these commands in your terminal:
 ```sh
 sudo chown -R $USER:$USER ~/.local/state/nvim
@@ -40,4 +41,4 @@ sudo chown -R $USER:$USER ~/.local/share/nvim
 sudo chmod -R u+rw ~/.local/share/nvim
 ```
    It should be alright
-6) Open your Neovim, and voila! You can code your Python with my configurations :>
+7) Open your Neovim, and voila! You can code your Python with my configurations :>
