@@ -15,7 +15,6 @@ Well, if you want to configure it by yourself, go ahead. :>
 
 # Preview
 
-![alt text](https://github.com/tsarcasticx/Costumize-NVChad-for-Python/blob/main/Preview.png)
 
 # How to install it
 
