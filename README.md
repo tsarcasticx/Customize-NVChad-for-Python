@@ -33,8 +33,8 @@ fc-cache -fv
 4) Then, you can install this NVChad on your terminal:
 ```sh
 git clone https://github.com/tsarcasticx/Costumize-NVChad-for-Python ~/.config/nvim
-sudo chown -R $USER:$USER ~/.config/nvim
-sudo chmod -R u+rw ~/.config/nvim
+chown -R $USER:$USER ~/.config/nvim
+chmod -R u+rw ~/.config/nvim
 nvim
 ```
 5) Wait until all packages are installed
@@ -42,10 +42,10 @@ nvim
    and then quit Neovim
 7) Or if there is still an error that appears on something, quit Neovim by `:qa!` and type these commands in your terminal:
 ```sh
-sudo chown -R $USER:$USER ~/.local/state/nvim
-sudo chmod -R u+rw ~/.local/state/nvim
-sudo chown -R $USER:$USER ~/.local/share/nvim
-sudo chmod -R u+rw ~/.local/share/nvim
+chown -R $USER:$USER ~/.local/state/nvim
+chmod -R u+rw ~/.local/state/nvim
+chown -R $USER:$USER ~/.local/share/nvim
+chmod -R u+rw ~/.local/share/nvim
 ```
 
 And voila! You can code your Python happily! :>
