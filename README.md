@@ -15,7 +15,7 @@ Well, if you want to configure it by yourself, go ahead. :>
 # Preview
 ![alt text](https://github.com/tsarcasticx/Costumize-NVChad-for-Python/blob/main/Preview.png)
 
-# How to install it
+# How to Install It
 
 1) First of all, you must have a Python virtual environment; `~/virtualenvs/nvim-venv`
    If you don't have it, you can make the venv via this shell command. But, make sure you are in the `~` directory:
@@ -49,3 +49,13 @@ chmod -R u+rw ~/.local/share/nvim
 ```
 
 And voila! You can code your Python happily! :>
+
+# How to Uninstall It
+
+If you want to uninstall my NVChad configuration, you can simply type these commands on your terminal:
+```sh
+rm -rf ~/.config/nvim
+rm -rf ~/.local/state/nvim
+rm -rf ~/.local/share/nvim
+```
+And, thank you for using my Neovim configuration! Have a nice day! :>
