@@ -23,16 +23,20 @@ mkdir virtualenvs
 python3 -m venv nvim-venv #make sure you've installed the python3-venv
 ```
 2) After that, make sure that your Neovim version is 0.11 or above. If it isn't, you can reinstall it from the official site
-3) Then, you can install this NVChad:
+3) Then, you can install this NVChad on your terminal:
 ```sh
 git clone https://github.com/tsarcasticx/Costumize-NVChad-for-Python ~/.config/nvim
 sudo chown -R $USER:$USER ~/.config/nvim
 sudo chmod -R u+rw ~/.config/nvim
-git clone https://github.com/ ~/.local/state/nvim
-sudo chown -R $USER:$USER ~/.local.state/nvim
+nvim
+```
+4) Once it's done, you can type `:MasonInstall pyright`, or even `:MasonInstallAll`, but make sure the pyright is installed
+5) Or if there is still an error that appears on something, quit Neovim by `:qa!` and type these commands in your terminal:
+```sh
+sudo chown -R $USER:$USER ~/.local/state/nvim
 sudo chmod -R u+rw ~/.local/state/nvim
-git clone https://github.com/ ~/.local/share/nvim
 sudo chown -R $USER:$USER ~/.local/share/nvim
 sudo chmod -R u+rw ~/.local/share/nvim
 ```
-4) Here you go! You can code in Python so happily in Neovim :>
+   It should be alright
+6) Open your Neovim, and voila! You can code your Python with my configurations :>
