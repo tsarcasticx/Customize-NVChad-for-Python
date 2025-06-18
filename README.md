@@ -14,7 +14,7 @@ Well, if you want to configure it by yourself, go ahead. :>
 2) Because it's based on NVChad and LazyVim, all of the keywords and commands are the same as those (including the Mason package management).
 
 # Preview
-[!alt text](https://github.com/tsarcasticx/Costumize-NVChad-for-Python/blob/main/Preview.png)
+![alt text](https://github.com/tsarcasticx/Costumize-NVChad-for-Python/blob/main/Preview.png)
 
 # How to install it
 
