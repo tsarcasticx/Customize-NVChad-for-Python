@@ -1,4 +1,4 @@
-#Customized NVChad for simple Python usage.
+# Customized NVChad for simple Python usage.
 
 This customization is supposed to be the Python configuration, hence you can code in Python easily.
 Well, if you want to configure it by yourself, go ahead. :>
