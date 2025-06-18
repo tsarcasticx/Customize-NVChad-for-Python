@@ -40,5 +40,5 @@ sudo chmod -R u+rw ~/.local/state/nvim
 sudo chown -R $USER:$USER ~/.local/share/nvim
 sudo chmod -R u+rw ~/.local/share/nvim
 ```
-   It should be alright
+It should be alright
 7) Open your Neovim, and voila! You can code your Python with my configurations :>
