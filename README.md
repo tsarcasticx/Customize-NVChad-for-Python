@@ -19,7 +19,7 @@ Well, if you want to configure it by yourself, go ahead. :>
 # How to install it
 
 1) First of all, you must have a Python virtual environment; `~/virtualenvs/nvim-venv`
-   If you don't have it, you can make the venv via this shell command. But, make sure you are in `the ~` directory:
+   If you don't have it, you can make the venv via this shell command. But, make sure you are in the `~` directory:
 ```sh
 mkdir virtualenvs
 python3 -m venv nvim-venv #make sure you've installed the python3-venv
