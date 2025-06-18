@@ -7,7 +7,6 @@ Well, if you want to configure it by yourself, go ahead. :>
 - So you import its modules like `require "nvchad.options", require "nvchad.mappings"`
 - So you can delete the .git from this repo ( when you clone it locally ) or fork it :)
 
-
 # Credits
 
 1) Big thanks to LazyVim and NVChad for making it happen :>
@@ -25,7 +24,8 @@ mkdir virtualenvs
 python3 -m venv nvim-venv #make sure you've installed the python3-venv
 ```
 2) After that, make sure that your Neovim version is 0.11 or above. If it isn't, you can reinstall it from the official site
-3) Then, you can install this NVChad on your terminal:
+3) Also, make sure that you've installed [JetBrains Mono Nerd Fonts](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/JetBrainsMono.zip)
+4) Then, you can install this NVChad on your terminal:
 ```sh
 git clone https://github.com/tsarcasticx/Costumize-NVChad-for-Python ~/.config/nvim
 sudo chown -R $USER:$USER ~/.config/nvim
