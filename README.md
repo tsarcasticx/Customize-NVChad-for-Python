@@ -24,7 +24,12 @@ mkdir virtualenvs
 python3 -m venv nvim-venv #make sure you've installed the python3-venv
 ```
 2) After that, make sure that your Neovim version is 0.11 or above. If it isn't, you can reinstall it from the official site
-3) Also, make sure that you've installed [JetBrains Mono Nerd Fonts](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/JetBrainsMono.zip)
+3) Also, make sure that you've installed [JetBrains Mono Nerd Fonts](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/JetBrainsMono.zip) and then unzip it on your terminal by these commands:
+```sh
+cd Downloads
+unzip JetBrainsMono.zip -d ~/.fonts
+fc-cache -fv
+```
 4) Then, you can install this NVChad on your terminal:
 ```sh
 git clone https://github.com/tsarcasticx/Costumize-NVChad-for-Python ~/.config/nvim
@@ -32,10 +37,10 @@ sudo chown -R $USER:$USER ~/.config/nvim
 sudo chmod -R u+rw ~/.config/nvim
 nvim
 ```
-4) Wait until all packages are installed
-5) Once it's done, you can type `:MasonInstall pyright`, or even `:MasonInstallAll`, but make sure the pyright is installed
+5) Wait until all packages are installed
+6) Once it's done, you can type `:MasonInstall pyright`, or even `:MasonInstallAll`, but make sure the pyright is installed
    and then quit Neovim
-6) Or if there is still an error that appears on something, quit Neovim by `:qa!` and type these commands in your terminal:
+7) Or if there is still an error that appears on something, quit Neovim by `:qa!` and type these commands in your terminal:
 ```sh
 sudo chown -R $USER:$USER ~/.local/state/nvim
 sudo chmod -R u+rw ~/.local/state/nvim
