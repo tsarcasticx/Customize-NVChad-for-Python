@@ -23,7 +23,7 @@ Well, if you want to configure it by yourself, go ahead. :>
 mkdir virtualenvs
 python3 -m venv nvim-venv #make sure you've installed the python3-venv
 ```
-2) After that, make sure that your Neovim version is 0.11 or above. If it isn't, you can reinstall it from the official site
+2) After that, make sure that your Neovim version is 0.11 or above. If it isn't, you can reinstall it from the [official site](https://neovim.io/)
 3) Also, make sure that you've installed [JetBrains Mono Nerd Fonts](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/JetBrainsMono.zip) and then unzip it on your terminal by these commands:
 ```sh
 cd Downloads
