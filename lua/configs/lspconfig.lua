@@ -15,4 +15,15 @@ lspconfig.pyright.setup({
     }
   }
 })
+
+lspconfig.ruff.setup({
+  on_attach = on_attach,  -- Same as Pyright
+  capabilities = capabilities,
+  init_options = {
+    settings = {
+      -- Ruff-specific settings (optional)
+      args = { "--quiet" },  -- Suppress unnecessary output
+    },
+  },
+})
 -- read :h vim.lsp.config for changing options of lsp servers 
