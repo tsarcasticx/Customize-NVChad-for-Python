@@ -38,7 +38,7 @@ chmod -R u+rw ~/.config/nvim
 nvim
 ```
 5) Wait until all packages are installed
-6) Once it's done, you can type `:MasonInstall pyright`, or even `:MasonInstallAll`, but make sure the pyright is installed
+6) Once it's done, you can type `:MasonInstall pyright` and `:MasonInstall ruff`, or even `:MasonInstallAll`, but make sure the Pyright and Ruff is installed
    and then quit Neovim
 7) Or if there is still an error that appears on something, quit Neovim by `:qa!` and type these commands in your terminal:
 ```sh
