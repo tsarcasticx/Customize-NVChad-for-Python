@@ -32,7 +32,7 @@ fc-cache -fv
 ```
 4) Then, you can install this NVChad on your terminal:
 ```sh
-git clone https://github.com/tsarcasticx/Costumize-NVChad-for-Python ~/.config/nvim
+git clone https://github.com/tsarcasticx/Customize-NVChad-for-Python ~/.config/nvim
 chown -R $USER:$USER ~/.config/nvim
 chmod -R u+rw ~/.config/nvim
 nvim
